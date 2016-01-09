@@ -1,0 +1,9 @@
+Email de contato da Inscricao para o evento
+
+nome = {{ name }}
+cpf= {{ cpf }}
+email= {{ email }}
+tel= {{ phone }}
+
+Atenciosamente
+Eventex
