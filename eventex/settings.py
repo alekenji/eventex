@@ -40,6 +40,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_extensions',
     'eventex.core',
     'eventex.subscriptions',
 )
@@ -107,6 +108,7 @@ STATIC_URL = '/static/'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
+DEFAULT_FROM_EMAIL = 'kenjiphp@gmail.com'
 
 # Email configuration
 #EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
