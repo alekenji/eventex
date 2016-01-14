@@ -1,0 +1,27 @@
+
+
+{% extends 'base.html' %}
+
+{% block content %}
+    <!-- OVERVIEW -->
+    <section>
+        <div class="content row padding-bottom-3 desktop-12 container">
+            <h1>Obrigado por se inscriver! </h1>
+            <div class="desktop-6">
+                <p>Email de contato da Inscricao para o evento</p>
+
+                    <ul>
+                        <li>nome = {{ subscription.name }}</li>
+                        <li>cpf= {{ subscription.cpf }}</li>
+                        <li>email= {{ subscription.email }}</li>
+                        <li>tel= {{ subscription.phone }}</li>
+                    </ul>
+
+                    <p>Atenciosamente</p>
+                    <p>Eventex</p>
+
+            </div>
+        </div>
+    </section>
+
+{% endblock content %}

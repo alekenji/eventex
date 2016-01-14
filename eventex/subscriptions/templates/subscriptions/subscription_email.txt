@@ -1,9 +1,9 @@
 Email de contato da Inscricao para o evento
 
-nome = {{ name }}
-cpf= {{ cpf }}
-email= {{ email }}
-tel= {{ phone }}
+nome = {{ subscription.name }}
+cpf= {{ subscription.cpf }}
+email= {{ subscription.email }}
+tel= {{ subscription.phone }}
 
 Atenciosamente
 Eventex
